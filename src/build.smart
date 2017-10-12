@@ -9,7 +9,7 @@ import (
     libzmq
 )
 
-top := $(ndir 3,$/)
+top := $(dirs 3,$/)
 
 CXXFLAGS += $(@->variant_cflags)
 CXXFLAGS += -DHAVE_CONFIG_H
