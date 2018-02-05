@@ -6,7 +6,7 @@ import (
     ./secp256k1
     ./leveldb
     ./leveldb/helpers/memenv
-    libzmq
+    gcc/lib/zmq
 )
 
 top := $(dirs 3,$/)
